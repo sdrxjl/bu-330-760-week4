@@ -11,6 +11,12 @@ Implement the product_lookup tool in agent.py. It should:
 3. Return the list of available product names if not found
 ```
 
+## Video Link
+
+https://youtu.be/l8oZXPrFkeU
+
+---
+
 ## Setup
 
 1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you don't have it.

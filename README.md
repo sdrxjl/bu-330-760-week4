@@ -2,6 +2,15 @@
 
 A ReAct agent that solves questions using tool calls.
 
+## Prompt for TODO
+
+```
+Implement the product_lookup tool in agent.py. It should:
+1. Open and parse products.json with json.load()
+2. Return the price as a string if product_name is found in the catalog
+3. Return the list of available product names if not found
+```
+
 ## Setup
 
 1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you don't have it.
@@ -19,6 +28,7 @@ A ReAct agent that solves questions using tool calls.
 ## Run
 
 ```bash
+$env:PATH = [System.Environment]::GetEnvironmentVariable("PATH", "User") + ";" + [System.Environment]::GetEnvironmentVariable("PATH", "Machine")
 uv run agent.py
 ```
 
